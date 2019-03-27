@@ -17,7 +17,7 @@ div {
 }
 
 .red {
-	color:red;
+	color:red;	
 }
 
 .bold {
@@ -26,4 +26,9 @@ div {
 
 .italic {
 	font-style: italic;
+}
+
+.underline {
+	color:red;
+	text-decoration: underline;
 }
