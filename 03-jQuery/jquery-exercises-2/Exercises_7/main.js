@@ -44,7 +44,7 @@ $(document).ready(function(){
     
     /* On click: add "Chapter 1:" before the 1st title h2 and "Chapter 2:" before the 2nd title h2 */
     $('li:nth-child(7)').one('click', function() {
-        $("h2").first().prepend("Chapter 1: ");
+        $("h2:eq(0)").prepend("Chapter 1: ");
         $("h2:eq(1)").prepend("Chapter 2: ");
     });    
 
