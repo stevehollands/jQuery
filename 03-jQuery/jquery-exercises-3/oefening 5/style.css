@@ -1,0 +1,11 @@
+#rect {
+    height: 250px;
+    width: 250px;
+    border-style: dotted;
+    background-color: blue;
+    position: relative;
+    top: 0;
+    left:0;
+    right:0;
+    bottom:0;
+  }
